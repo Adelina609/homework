@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">proj2</string>
+    <string name="name1">Имя</string>
+    <string name="email">email</string>
+    <string name="phone1">Телефон</string>
+    <string name="Back">Вернуться</string>
+    <string name="OkButton">OK</string>
+    <string name="about">Данные пользователя</string>
+    <string name="edit">Редактировать</string>
+    <string name="data">Данные</string>
+</resources>
