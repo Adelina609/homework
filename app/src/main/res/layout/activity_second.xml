@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_ok_second_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/all_ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/et_name_second_activity"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="@string/all_name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/et_email_second_activity"
+        app:layout_constraintEnd_toEndOf="@+id/et_email_second_activity"
+        app:layout_constraintStart_toStartOf="@+id/et_email_second_activity"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_email_second_activity"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="46dp"
+        android:ems="10"
+        android:hint="@string/all_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/et_phone_second_activity"
+        app:layout_constraintEnd_toEndOf="@+id/et_phone_second_activity"
+        app:layout_constraintStart_toStartOf="@+id/et_phone_second_activity" />
+
+    <EditText
+        android:id="@+id/et_phone_second_activity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="106dp"
+        android:ems="10"
+        android:hint="@string/all_phone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_second_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+</android.support.constraint.ConstraintLayout>

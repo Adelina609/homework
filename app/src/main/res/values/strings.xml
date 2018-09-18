@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">proj2</string>
+    <string name="all_name">Имя</string>
+    <string name="all_email">email</string>
+    <string name="all_phone">Телефон</string>
+    <string name="all_ok">OK</string>
+    <string name="main_edit">Редактировать</string>
+    <string name="main_data">Данные</string>
+</resources>
